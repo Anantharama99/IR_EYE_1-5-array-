@@ -113,7 +113,7 @@ const float wheelCircumferenceCm = 3.14159265 * wheelDiameterCm; // ~8.17 cm
 // Typical value for a 2.6 cm TT-wheel bot: 0.09 – 0.13
 const float cmPerSecPerPwm       = 0.7;
 // Distance to travel inside the all-black region before stopping.
-const float stopDistanceCm       = 4.0;
+const float stopDistanceCm       = 6.0;
 
 unsigned long allBlackLastTime   = 0;
 float allBlackDistanceCm         = 0.0;
